@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "81594979734",
+    "project_id": "pifarm-91c37",
+    "storage_bucket": "pifarm-91c37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81594979734:android:f932eed079f250cafff9b7",
+        "android_client_info": {
+          "package_name": "com.example.pi_farm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQOFGVR7C0pyhLac2DtlQQdtFUP0i3Btw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
