@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pi_farm/src/page/home/home_page.dart';
 import 'package:pi_farm/src/page/settings/settings_page.dart';
+import 'package:pi_farm/src/page/tasks/tasks_page.dart';
 
 class SelectPage extends StatefulWidget {
   const SelectPage({super.key});
@@ -22,6 +23,7 @@ class SelectPageState extends State<SelectPage> {
     List<Widget> pages = [
       const HomePage(),
       const Placeholder(),
+      const TasksPage(),
       const SettingsPage(),
     ];
     return Scaffold(
@@ -47,6 +49,8 @@ class SelectPageState extends State<SelectPage> {
               BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
               BottomNavigationBarItem(
                   icon: Icon(Icons.ssid_chart), label: 'Charts'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.event_note), label: 'Tasks'),
               BottomNavigationBarItem(
                 icon: Icon(Icons.settings),
                 label: "Settings",
