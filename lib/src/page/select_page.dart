@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pi_farm/src/page/home/home_page.dart';
 import 'package:pi_farm/src/page/settings/settings_page.dart';
 import 'package:pi_farm/src/page/tasks/tasks_page.dart';
+import 'package:pi_farm/src/page/cages/cages_page.dart'; // Add this import
 
 class SelectPage extends StatefulWidget {
   const SelectPage({super.key});
@@ -22,7 +23,7 @@ class SelectPageState extends State<SelectPage> {
   Widget build(BuildContext context) {
     List<Widget> pages = [
       const HomePage(),
-      const Placeholder(),
+      const CagesPage(), // Replace Placeholder with CagesPage
       const TasksPage(),
       const SettingsPage(),
     ];
@@ -48,7 +49,7 @@ class SelectPageState extends State<SelectPage> {
             items: const [
               BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.ssid_chart), label: 'Charts'),
+                  icon: Icon(Icons.grid_view), label: 'Cages'), // Update icon and label
               BottomNavigationBarItem(
                   icon: Icon(Icons.event_note), label: 'Tasks'),
               BottomNavigationBarItem(
