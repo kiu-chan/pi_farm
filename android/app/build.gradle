@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pi_farm"
+    namespace = "com.mon.pi_farm"
     compileSdk = 34
     ndkVersion flutter.ndkVersion
 
@@ -20,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.pi_farm"
+        applicationId = "com.mon.pi_farm"
         minSdk = 23
         targetSdk = 34
         versionCode flutter.versionCode

@@ -52,7 +52,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDQOFGVR7C0pyhLac2DtlQQdtFUP0i3Btw',
-    appId: '1:81594979734:android:f932eed079f250cafff9b7',
+    appId: '1:81594979734:android:137f05af7d2bac8ffff9b7',
     messagingSenderId: '81594979734',
     projectId: 'pifarm-91c37',
     databaseURL: 'https://pifarm-91c37-default-rtdb.firebaseio.com',
@@ -88,4 +88,5 @@ class DefaultFirebaseOptions {
     databaseURL: 'https://pifarm-91c37-default-rtdb.firebaseio.com',
     storageBucket: 'pifarm-91c37.firebasestorage.app',
   );
+
 }

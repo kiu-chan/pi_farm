@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:81594979734:android:f932eed079f250cafff9b7",
+        "mobilesdk_app_id": "1:81594979734:android:137f05af7d2bac8ffff9b7",
         "android_client_info": {
-          "package_name": "com.example.pi_farm"
+          "package_name": "com.mon.pi_farm"
         }
       },
       "oauth_client": [],
